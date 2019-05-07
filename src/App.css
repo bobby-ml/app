@@ -1,0 +1,22 @@
+.logo {
+    width: 170px;
+    height: 50px;
+    float: left;
+  }
+  .login {
+    width: 170px;
+    height: 50px;
+    float: right;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color:#714b9c;
+  }
+
+
+
+  .logs{
+    background-color: #714b9c;
+    color:whitesmoke;
+    padding: 2%
+    
+  }
