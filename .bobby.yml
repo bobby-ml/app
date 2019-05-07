@@ -1,7 +1,7 @@
 image: "jpetazzo/dind"
 script:
   - apt-get update
-  - curl -sL https://deb.nodesource.com/setup_4.x | bash
+  - curl -sL https://deb.nodesource.com/setup_10.x | bash
   - apt-get install nodejs
   - npm install
   - npm build
