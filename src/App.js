@@ -52,7 +52,9 @@ function PrivateRoute({ component: Component, ...rest }) {
 
 
 class MenuContainer extends Component {
-
+  LoginClick = (event) => {
+    UserStore.login()
+  }
   render() {
     const location  = this.props.location.pathname
     var n = location.split('/')[1]
@@ -82,9 +84,7 @@ class MenuContainer extends Component {
 var Toto = withRouter(MenuContainer)
 
 class App extends Component {
-  LoginClick = (event) => {
-    UserStore.login()
-  }
+  
 
   async componentDidMount() {
     await UserStore.init()

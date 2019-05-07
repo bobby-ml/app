@@ -49,9 +49,7 @@ class NewProject extends Component {
                         var n = r.owner.login + "/" + r.name;
                         return  <Option value={n}>{n}</Option>
                     })}
-                        <Option value="jack">Jack</Option>
-                        <Option value="lucy">Lucy</Option>
-                        <Option value="tom">Tom</Option>
+                      
                     </Select>
                     </Form.Item>
                     <Button onClick={this.SaveSa} type="primary"  htmlType="submit" >Next</Button>

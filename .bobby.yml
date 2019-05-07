@@ -1,0 +1,8 @@
+image: "jpetazzo/dind"
+script:
+  - apt-get update
+  - curl -sL https://deb.nodesource.com/setup_4.x | bash
+  - apt-get install nodejs
+  - npm install
+  - npm build
+  - docker build -t result .
