@@ -4,5 +4,5 @@ script:
   - curl -sL https://deb.nodesource.com/setup_10.x | bash
   - apt-get install nodejs
   - npm install
-  - npm build
+  - npm run-script build
   - docker build -t result .
