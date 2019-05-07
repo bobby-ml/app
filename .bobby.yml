@@ -1,6 +1,6 @@
 image: "jpetazzo/dind"
 script:
-  - echo bonjour2
+  - echo bonjour22
   - apt-get update
   - curl -sL https://deb.nodesource.com/setup_4.x | bash
   - apt-get install nodejs
